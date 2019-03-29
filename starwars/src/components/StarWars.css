@@ -1,0 +1,21 @@
+.char {
+ 
+  
+    border: 2px sold black;
+    display: -ms-flexbox;
+    width: 110px;
+    height: 24px;
+    background: aliceblue;
+    margin: 16px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 11px;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.characters-list {
+    display: flex;
+    flex-flow: wrap;
+}
