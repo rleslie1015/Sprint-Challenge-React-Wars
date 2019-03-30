@@ -7,7 +7,12 @@
     border: 1px solid black;
     border-radius: 15px;
     text-align: center;
+    @media(min-width: 500px) {
+      
+          background: gray;
+        }
 }
+
 .characters-list {
     display: flex;
     flex-flow: wrap;
